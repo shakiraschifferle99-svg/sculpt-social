@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AuthNav from "./AuthNav";
 
 export default function Nav() {
   return (
@@ -21,7 +22,7 @@ export default function Nav() {
         <li><a className="b2-nav-link" href="#about">About</a></li>
         <li><a className="b2-nav-link" href="#features">Features</a></li>
         <li><a className="b2-nav-link" href="#community">Community</a></li>
-        <li><a className="b2-nav-link" href="#join">Join</a></li>
+        <AuthNav />
       </ul>
     </header>
   );
